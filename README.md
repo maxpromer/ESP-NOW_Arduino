@@ -6,7 +6,7 @@
 
 **การติดตั้งแบบออนไลน์** ติดตั้งได้โดยใช้ Plugin Manager
 
-**ติดตั้งแบบออฟไลน์** กดปุ่ม Clone or download แล้วกดปุ่ม Download ZIP แล้วแตกไฟล์ออกมา ได้โฟลเดอร์ ESP-NOW_Arduino-master ให้ย้ายโฟลเดอร์ ESP-NOW_Arduino-master ไปไว้ที่ [ไดร์ที่ติดตั้ง Windows]:\Users\[USERNAME]\AppData\Local\Programs\kbide\plugins
+**ติดตั้งแบบออฟไลน์** กดปุ่ม Clone or download แล้วกดปุ่ม Download ZIP แล้วแตกไฟล์ออกมา ได้โฟลเดอร์ `ESP-NOW_Arduino-master` ให้ย้ายโฟลเดอร์ `ESP-NOW_Arduino-master` ไปไว้ที่ `[ไดร์ที่ติดตั้ง Windows]:\Users\[USERNAME]\AppData\Local\Programs\kbide\plugins`
 
 เมื่อติดตั้งเสร็จแล้ว จะมีบล็อกเพิ่มขึ้นมาในเมนู Plugins > ESP-NOW
 
