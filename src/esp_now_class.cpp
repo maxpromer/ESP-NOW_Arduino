@@ -71,6 +71,10 @@ void ESP_NOW_CLASS::send(char* str) {
 	}
 }
 
+void ESP_NOW_CLASS::send(String str) {
+	send((char*)str.c_str());
+}
+
 void ESP_NOW_CLASS::send(float n) {
 	char s_buff[255];
 	sprintf(s_buff, "%f", n);
@@ -97,6 +101,10 @@ void ESP_NOW_CLASS::send(char* mac, char* str) {
 	} else {
 		ESP_LOGI("ESP-NOW", "Send fail");
 	}
+}
+
+void ESP_NOW_CLASS::send(String mac, String str) {
+	send((char*)mac.c_str(), (char*)str.c_str());
 }
 
 void ESP_NOW_CLASS::send(char* mac, float n) {

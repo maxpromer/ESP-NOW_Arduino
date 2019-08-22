@@ -25,8 +25,10 @@ class ESP_NOW_CLASS {
 		void init() ;
 		String getMAC() ;
 		void send(char*) ;
+		void send(String) ;
 		void send(float) ;
 		void send(char*, char*) ;
+		void send(String, String) ;
 		void send(char*, float) ;
 		void onRecv(ESPNOWRecvCallback fn) ;
 		String readString() ;

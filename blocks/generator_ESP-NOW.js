@@ -2,6 +2,7 @@ Blockly.JavaScript['esp_now.setup'] = function(block) {
 	var code = '';
 	code += '#EXTINC#include <esp_now_class.h>#END\n';
 	code += '#VARIABLE ESP_NOW_CLASS esp_now = ESP_NOW_CLASS();#END\n';
+	code += 'esp_now.init();\n'
 	return code;
 };
 
@@ -25,7 +26,7 @@ Blockly.JavaScript['esp_now.send2'] = function(block) {
 
 Blockly.JavaScript['esp_now.recv'] = function(block) {
 	var statements_recv_cb = Blockly.JavaScript.statementToCode(block, 'recv_cb');
-	var code = 'esp_now.onRecv([]() { ' + statements_recv_cb + ' });\n';
+	var code = 'esp_now.onRecv([]() {\n' + statements_recv_cb + '});\n';
 	return code;
 };
 
