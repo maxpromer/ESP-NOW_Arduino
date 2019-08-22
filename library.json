@@ -1,0 +1,16 @@
+{
+  "name": "espnow-arduino",
+  "title" : "ESP-NOW",
+  "keywords": "ESP-NOW",
+  "description": "สื่อสารระหว่างบอร์ด ESP32 ด้วย ESP-NOW",
+  "homepage": "https://www.ioxhop.com/",
+  "license": "MIT",
+  "git": "https://github.com/maxpromer/ESP-NOW_Arduino",
+  "author": "Sonthaya Nongnuch",
+  "email": "max30012540@hotmail.com",
+  "url": "https://www.ioxhop.com/",
+  "version": "1.0.0",
+  "board" : "",
+  "platform": ["arduino-esp32"],
+  "image" : "/static/cover.png"
+}
