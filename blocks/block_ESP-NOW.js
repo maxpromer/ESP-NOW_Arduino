@@ -110,7 +110,7 @@ Blockly.Blocks['esp_now.read_number'] = {
 	init: function() {
 		this.jsonInit({
 			"message0": "ESP-NOW read number",
-			"output": "String",
+			"output": "Number",
 			"colour": 60,
 			"tooltip": "Read number from other KidBright32 via ESP-NOW",
 			"helpUrl": "https://store.kidbright.info/"
