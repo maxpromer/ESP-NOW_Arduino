@@ -81,6 +81,12 @@ void ESP_NOW_CLASS::send(float n) {
 	send(s_buff);
 }
 
+void ESP_NOW_CLASS::send(int n) {
+	char s_buff[255];
+	sprintf(s_buff, "%d", n);
+	send(s_buff);
+}
+
 void ESP_NOW_CLASS::send(char* mac, char* str) {
 	uint8_t macAddr[6];
 	uint8_t i = sscanf(mac, "%x:%x:%x:%x:%x:%x", (unsigned int*)&macAddr[0], (unsigned int*)&macAddr[1], (unsigned int*)&macAddr[2], (unsigned int*)&macAddr[3], (unsigned int*)&macAddr[4], (unsigned int*)&macAddr[5]);

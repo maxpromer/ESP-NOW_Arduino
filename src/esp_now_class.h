@@ -27,6 +27,7 @@ class ESP_NOW_CLASS {
 		void send(char*) ;
 		void send(String) ;
 		void send(float) ;
+		void send(int) ;
 		void send(char*, char*) ;
 		void send(String, String) ;
 		void send(char*, float) ;
